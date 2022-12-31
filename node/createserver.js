@@ -1,10 +1,10 @@
-// const http  = require("http");
-// const server = http.createServer((req,res) => {
-//     res.write("hello sajal in node js");
-//     res.end();
-// });
+const http  = require("http");
+const server = http.createServer((req,res) => {
+    res.write("hello sajal in node js");
+    res.end();
+});
 
-// server.listen(3000);
+server.listen(3000);
 
 
 
